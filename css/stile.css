@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+/*-----------------------
+    PALINDROMO
+------------------------*/
+.container{
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.containerPalindromo{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+   
+ 
+    
+#text{
+    width: 30rem;
+    height: 3rem;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#text:focus {
+    outline: none;
+    border-color:#11998e;
+}
+
+#answer{
+    font-size: 20px;
+}   
+
+
+
+
